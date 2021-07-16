@@ -57,13 +57,9 @@
 }
 
 /* patient registration */
-#form[data-form-id="5874873"]
-  > div[data-colspan="20"]
-  > div[data-colspan="12"]:not([data-role="page"]):not(:empty),
+#form[data-form-id="5874873"] div[data-colspan="20"]:not([data-role="page"]):not(:empty),
 /* release of information */
-#form[data-form-id="5892798"]
-  > div[data-colspan="20"]
-  > div[data-colspan="12"]:not([data-role="page"]):not(:empty) {
+#form[data-form-id="5892798"] div[data-colspan="20"]:not([data-role="page"]):not(:empty) {
   margin-bottom: 50px !important;
 }
 
