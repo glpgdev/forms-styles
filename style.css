@@ -65,7 +65,7 @@
 #form
   > div[data-colspan="20"]
   > div[data-colspan="12"]:not([data-role="page"]):not(:empty):not([data-role="control"])
-  div[data-colspan="12"]:not([data-role="page"]):not(:empty):not([data-role="control"]) {
+  div[data-colspan="12"]:not([data-role="page"]):not(:empty):not([data-role="control"]):not(:last-of-type) {
   margin-bottom: 0 !important;
 }
 
