@@ -22,6 +22,11 @@
   color: #172a40 !important;
 }
 
+#form div[data-type="html-block"] p a {
+  color: #3776c8 !important;
+  font-size: 14px !important;
+}
+
 #form div[data-type="html-block"] span.subheader {
   color: #62bcc7 !important;
 }
@@ -37,6 +42,18 @@
 
 #form div[data-type="html-block"][data-colspan="8"] {
   padding-right: 70px !important;
+}
+
+#form
+  [data-role="container"][data-type="repeatable"]
+  [data-type="repeatable-group"]
+  [data-role="remove-group-button"],
+#form
+  [data-role="container"][data-type="repeatable"]
+  [data-role="add-group-button"] {
+  background: transparent !important;
+  color: #3774c8 !important;
+  border: 1px solid #3774c8 !important;
 }
 
 #form div[data-colspan="20"]:not([data-role="page"]):not(:empty) {
