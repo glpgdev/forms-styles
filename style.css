@@ -56,7 +56,8 @@
   border: 1px solid #3774c8 !important;
 }
 
-#form div[data-colspan="20"]:not([data-role="page"]):not(:empty) {
+#form
+  div[data-colspan="20"]:not([data-role="page"]):not(:empty):not([data-role="control"]) {
   margin-bottom: 50px !important;
 }
 
