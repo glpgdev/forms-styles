@@ -1,3 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-kerning: auto;
+  font-kerning: auto;
+}
+
+#form * {
+  font-family: "Karla", sans-serif;
+}
+
+#form div[data-type="html-block"] p {
+  color: #687c95 !important;
+  line-height: 1.625 !important;
+}
+
+#form div[data-type="html-block"] p strong {
+  color: #172a40 !important;
+}
+
+::placeholder {
+  color: #687c95 !important;
+  opacity: 1 !important;
+}
+
+:-ms-input-placeholder {
+  color: #687c95 !important;
+}
+
+::-ms-input-placeholder {
+  color: #687c95 !important;
+}
+
+/** PRINT **/
 @media print {
   /* not sure if needed */
   * {
