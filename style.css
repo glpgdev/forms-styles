@@ -57,7 +57,7 @@
 }
 
 #form
-  div[data-colspan="20"]:not([data-role="page"]):not(:empty):not([data-role="control"]) {
+  div[data-colspan="12"]:not([data-role="page"]):not(:empty):not([data-role="control"]) {
   margin-bottom: 50px !important;
 }
 
