@@ -1,0 +1,119 @@
+@media print {
+  /* not sure if needed */
+  * {
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+    page-break-after: avoid !important;
+  }
+
+  /* give breathing room */
+  body {
+    padding: 30px;
+  }
+
+  /* reset font */
+  #form * {
+    font-family: initial !important;
+    color: #000 !important;
+  }
+
+  /* remove padding */
+  #form div[data-type="html-block"][data-colspan="8"] {
+    padding-right: 0 !important;
+  }
+
+  /* remove columns */
+  #form[data-layout-type="desktop"]
+    div[data-role="container"][data-type="virtual-form-table-row"]
+    > div[data-role="container"],
+  #form[data-layout-type="desktop"]
+    div[data-role="container"][data-type="virtual-form-table-row"]
+    > div[data-role="control"]:not([data-is-hidden]) {
+    width: 100% !important;
+    display: block !important;
+  }
+
+  /* hide elements not important */
+  #form div[data-role="page-footer"],
+  #form
+    > div[data-role="page"]
+    > div[data-role="page-header"]
+    > div[data-role="pagination"],
+  #form div[data-role="page-break"],
+  #form
+    [data-role="container"][data-type="repeatable"]
+    [data-type="repeatable-group"]
+    [data-role="remove-group-button"],
+  #form
+    [data-role="container"][data-type="repeatable"]
+    [data-role="add-group-button"],
+  #form
+    div[data-role="control"]
+    div[data-role="i123-input"][data-type="date"]
+    > div[data-role="expander"]:after,
+  #form
+    div[data-role="control"]
+    div[data-role="i123-input"][data-type="time"]
+    > div[data-role="expander"]:after {
+    display: none !important;
+  }
+
+  /* remove select arrow */
+  select {
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    appearance: none !important;
+    border: none !important;
+    background: none !important;
+  }
+
+  /* add border to bottom of inputs */
+  #form
+    [data-role="control"]:not([data-force-mobile-rendering])
+    [data-role="input-row"][data-fill-colspan="0"],
+  #form
+    [data-role="control"]:not([data-type="check-box"]):not([data-type="radio"])
+    [data-role="input-row"]:not([data-is-first-row]) {
+    border-bottom: 1px solid #000;
+  }
+
+  /* remove background from inputs */
+  #form
+    div[data-role="control"]
+    input[data-role="i123-input"]:not([type="radio"]):not([type="checkbox"]):not([type="reset"]):not([type="hidden"]):not([data-no-theme]),
+  #form div[data-role="control"] select[data-role="i123-input"],
+  #form div[data-role="control"] textarea[data-role="i123-input"],
+  #form
+    div[data-role="control"]
+    div[data-role="i123-input"]:not([data-type="file"]),
+  #form
+    div[data-role="control"]
+    div[data-role="i123-input"][data-type="file"]
+    > div[data-role="upload-overlay"],
+  #form
+    div[data-role="control"]
+    div[data-role="i123-input"][data-type="file"]
+    > div[data-role="abort-all-uploads"],
+  #form
+    div[data-role="control"][data-type="check-box"]
+    input[data-role="other"],
+  #form div[data-role="control"][data-type="radio"] input[data-role="other"],
+  #form div[data-role="control"] div[data-role="price-container"],
+  #form div[data-role="control"] div[data-role="price-container"] > input,
+  #form div[data-role="control"] div[data-role="input-container"],
+  #form div[data-role="control"] div[data-role="input-container"] > input {
+    background: none !important;
+  }
+
+  /* reset margins */
+  #form div[data-colspan="20"]:not([data-role="page"]):not(:empty) {
+    margin-bottom: 20px !important;
+  }
+
+  /* reset padding */
+  #form div[data-role="control"],
+  #form div[data-role="container"][data-type="div"],
+  #form div[data-role="container"][data-type="likert-wrapper"] {
+    padding: 0 !important;
+  }
+}
