@@ -12,6 +12,10 @@
   font-size: 18px !important;
 }
 
+#form[data-role="page-header"] {
+  display: none !important;
+}
+
 #form[data-form-id="5874033"],
 #form[data-form-id="5874033"]
   div[data-role="control"]:not(:hover):not([data-is-selected]):not([data-disabled]):not([data-is-active]):not([data-has-errors])
