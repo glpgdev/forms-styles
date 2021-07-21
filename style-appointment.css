@@ -52,6 +52,13 @@
   background-color: #639cf7 !important;
 }
 
+#form[data-form-id="5874033"]
+  [data-role="page"]
+  [data-role="page-footer"]
+  [data-role="control"][data-type="form-action-bar"][data-buttons-position="1"] {
+  margin-top: 30px !important;
+}
+
 /* #form[data-form-id="5874033"] label#radio-000000080,
 #form[data-form-id="5874033"] label#radio-000000081 {
   border: 2px solid #fff !important;
