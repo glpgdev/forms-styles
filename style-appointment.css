@@ -23,6 +23,7 @@
   width: 150px !important;
   text-align: center !important;
   position: relative !important;
+  padding-left: 0 !important;
 }
 
 #form[data-form-id="5874033"] label#radio-000000080 > label,
@@ -33,11 +34,18 @@
   right: 0 !important;
   bottom: 0 !important;
   left: 0 !important;
-  /* background: none; */
+  background: none !important;
   height: 100% !important;
   width: 100% !important;
   border-radius: 0 !important;
   border: none !important;
+}
+
+#form[data-form-id="5874033"] label#radio-000000080 > label:checked,
+#form[data-form-id="5874033"] label#radio-000000081 > label:checked {
+  background: #fff !important;
+  color: #456cac !important;
+  font-weight: bold !important;
 }
 
 #form[data-form-id="5874033"],
