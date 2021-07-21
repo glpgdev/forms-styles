@@ -9,7 +9,7 @@
 
 #form[data-form-id="5874033"] *,
 #form[data-form-id="5874033"] span[data-role="option-text"] {
-  font-size: 18px !important;
+  /* font-size: 18px !important; */
 }
 
 #form div[data-role="page-header"] {
@@ -44,16 +44,16 @@
 #form[data-form-id="5874033"] label#radio-000000080 > label::after,
 #form[data-form-id="5874033"] label#radio-000000081 > label::after {
   display: none !important;
-} */
+}
 
 #form[data-form-id="5874033"] label#radio-000000080 > input:checked + label,
 #form[data-form-id="5874033"] label#radio-000000081 > input:checked + label {
   background: #fff !important;
   color: #456cac !important;
   font-weight: bold !important;
-}
+} */
 
-#form[data-form-id="5874033"],
+/* #form[data-form-id="5874033"],
 #form[data-form-id="5874033"]
   div[data-role="control"]:not(:hover):not([data-is-selected]):not([data-disabled]):not([data-is-active]):not([data-has-errors])
   div[data-role="label"],
@@ -88,9 +88,9 @@
   div[data-role="container"][data-type="likert-wrapper"]:hover:not([data-is-selected]):not([data-is-drag-source]):not([data-disabled]):not([data-is-active]):not([data-has-errors])
   label[data-role="label"] {
   color: #fff !important;
-}
+} */
 
-#form[data-form-id="5874033"] button[data-role] {
+/* #form[data-form-id="5874033"] button[data-role] {
   border-color: #fff !important;
   color: #fff !important;
-}
+} */
