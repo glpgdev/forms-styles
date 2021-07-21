@@ -214,7 +214,7 @@
 /* Request Appointment */
 #form[data-form-id="5874033"] {
   background: none !important;
-  margin: 0 8px !important;
+  margin: 0 -8px !important;
 }
 
 #form[data-form-id="5874033"],
@@ -226,7 +226,22 @@
   label[data-role="label"],
 #form[data-form-id="5874033"]
   div[data-role="container"][data-type="likert-wrapper"]:not(:hover):not([data-is-selected]):not([data-disabled]):not([data-is-active]):not([data-has-errors])
-  label[data-role="label"] {
+  label[data-role="label"],
+#form[data-form-id="5874033"]
+  div[data-role="control"][data-is-active]:not([data-has-errors])
+  div.control__label,
+#form[data-form-id="5874033"]
+  div[data-role="control"][data-is-active]:not([data-has-errors])
+  label[data-role="label"],
+#form[data-form-id="5874033"]
+  div[data-role="container"][data-type="likert-wrapper"][data-is-active]:not([data-has-errors])
+  label[data-role="label"],
+#form[data-form-id="5874033"]
+  div[data-role="control"][data-is-active]:not([data-has-errors])
+  div.control__label,
+#form[data-form-id="5874033"]
+  div[data-role="container"][data-type="likert-wrapper"][data-is-active]:not([data-has-errors])
+  div.control__label {
   color: #fff !important;
 }
 
