@@ -241,7 +241,16 @@
   div.control__label,
 #form[data-form-id="5874033"]
   div[data-role="container"][data-type="likert-wrapper"][data-is-active]:not([data-has-errors])
-  div.control__label {
+  div.control__label,
+#form[data-form-id="5874033"]
+  div[data-role="control"]:hover:not([data-is-selected]):not([data-is-drag-source]):not([data-disabled]):not([data-is-active]):not([data-has-errors])
+  div[data-role="label"],
+#form[data-form-id="5874033"]
+  div[data-role="control"]:hover:not([data-is-selected]):not([data-is-drag-source]):not([data-disabled]):not([data-is-active]):not([data-has-errors])
+  label[data-role="label"],
+#form[data-form-id="5874033"]
+  div[data-role="container"][data-type="likert-wrapper"]:hover:not([data-is-selected]):not([data-is-drag-source]):not([data-disabled]):not([data-is-active]):not([data-has-errors])
+  label[data-role="label"] {
   color: #fff !important;
 }
 
