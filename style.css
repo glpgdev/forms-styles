@@ -217,6 +217,10 @@
   margin: 0 -8px !important;
 }
 
+#form[data-form-id="5874033"] * {
+  font-size: 18px !important;
+}
+
 #form[data-form-id="5874033"],
 #form[data-form-id="5874033"]
   div[data-role="control"]:not(:hover):not([data-is-selected]):not([data-disabled]):not([data-is-active]):not([data-has-errors])
@@ -254,24 +258,7 @@
   color: #fff !important;
 }
 
-#form[data-form-id="5874033"] div[data-role="control"] label[data-role="label"],
-#form[data-form-id="5874033"] div[data-role="control"] div.control__label,
-#form[data-form-id="5874033"]
-  div[data-role="container"][data-type="likert-wrapper"]
-  label[data-role="label"],
-#form[data-form-id="5874033"]
-  div[data-role="container"][data-type="repeatable"]
-  label[data-role="label"],
-#form[data-form-id="5874033"]
-  [data-role="page-footer"]
-  > [data-type="payment-summary"]
-  > .invoice-wrapper
-  > label[data-role="label"] {
-  font-size: 18px !important;
-}
-
 #form[data-form-id="5874033"] button[data-role] {
   border-color: #fff !important;
   color: #fff !important;
-  font-size: 16px !important;
 }
