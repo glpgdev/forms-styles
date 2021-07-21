@@ -16,7 +16,7 @@
   display: none !important;
 }
 
-#form[data-form-id="5874033"] label#radio-000000080,
+/* #form[data-form-id="5874033"] label#radio-000000080,
 #form[data-form-id="5874033"] label#radio-000000081 {
   border: 2px solid #fff !important;
   border-radius: 8px !important;
@@ -43,8 +43,8 @@
 
 #form[data-form-id="5874033"] label#radio-000000080 > label::after,
 #form[data-form-id="5874033"] label#radio-000000081 > label::after {
-  /* display: none !important; */
-}
+  display: none !important;
+} */
 
 #form[data-form-id="5874033"] label#radio-000000080 > input:checked + label,
 #form[data-form-id="5874033"] label#radio-000000081 > input:checked + label {
