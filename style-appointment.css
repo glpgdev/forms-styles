@@ -41,6 +41,11 @@
   border: none !important;
 }
 
+#form[data-form-id="5874033"] label#radio-000000080 > label::after,
+#form[data-form-id="5874033"] label#radio-000000081 > label::after {
+  display: none !important;
+}
+
 #form[data-form-id="5874033"] label#radio-000000080 > label:checked,
 #form[data-form-id="5874033"] label#radio-000000081 > label:checked {
   background: #fff !important;
