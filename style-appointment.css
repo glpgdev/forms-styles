@@ -16,8 +16,28 @@
   /* font-size: 18px !important; */
 }
 
-#form div[data-role="page-header"] {
+#form[data-form-id="5874033"] div[data-role="page-header"] {
   display: none !important;
+}
+
+#form[data-form-id="5874033"]
+  div[data-role="control"][data-type="radio"]
+  input[data-role="i123-input"][type="radio"]:checked
+  + label,
+#form[data-form-id="5874033"]
+  div[data-role="control"][data-type="radio"]
+  input[data-role="i123-input"][type="radio"]:checked
+  + i.radio-icon,
+#form[data-form-id="5874033"]
+  div[data-role="control"][data-type="likert-scale"]
+  input[data-role="i123-input"][type="radio"]:checked
+  + label,
+#form[data-form-id="5874033"]
+  div[data-role="control"][data-type="likert-scale"]
+  input[data-role="i123-input"][type="radio"]:checked
+  + i.radio-icon {
+  border-color: #639cf7 !important;
+  background-color: #639cf7 !important;
 }
 
 /* #form[data-form-id="5874033"] label#radio-000000080,
