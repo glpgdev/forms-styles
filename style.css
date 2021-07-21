@@ -76,7 +76,7 @@
   color: #687c95 !important;
 }
 
-/* MEDIA QUERIES */
+/** MEDIA QUERIES **/
 @media only screen and (max-width: 768px) {
   #form div[data-type="html-block"][data-colspan="8"] {
     padding-right: 50px !important;
@@ -208,4 +208,11 @@
   #form div[data-role="container"][data-type="likert-wrapper"] {
     padding: 0 !important;
   }
+}
+
+/** SPECIFIC FORMS **/
+/* Request Appointment */
+#form[data-form-id="5874033"] {
+  background: none !important;
+  margin: 0 -13px !important;
 }
