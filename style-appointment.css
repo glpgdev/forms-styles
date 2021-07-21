@@ -118,3 +118,22 @@
   border-color: #fff !important;
   color: #fff !important;
 } */
+
+#form
+  div[data-role="control"][data-type="radio"]
+  input[data-role="i123-input"][type="radio"]:checked
+  + label:after,
+#form
+  div[data-role="control"][data-type="likert-scale"]
+  input[data-role="i123-input"][type="radio"]:checked
+  + label:after,
+#form
+  div[data-role="control"][data-type="radio"]
+  input[data-role="i123-input"][type="radio"]:checked
+  + i.radio-icon:after,
+#form
+  div[data-role="control"][data-type="likert-scale"]
+  input[data-role="i123-input"][type="radio"]:checked
+  + i.radio-icon:after {
+  color: #fff !important;
+}
