@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+@import "./style.css";
+
+/* Request Appointment Form */
+#form[data-form-id="5874033"] {
+  background: none !important;
+  margin: 0 -8px !important;
+}
+
+#form[data-form-id="5874033"] *,
+#form[data-form-id="5874033"] span[data-role="option-text"] {
+  font-size: 18px !important;
+}
+
+#form[data-form-id="5874033"],
+#form[data-form-id="5874033"]
+  div[data-role="control"]:not(:hover):not([data-is-selected]):not([data-disabled]):not([data-is-active]):not([data-has-errors])
+  div[data-role="label"],
+#form[data-form-id="5874033"]
+  div[data-role="control"]:not(:hover):not([data-is-selected]):not([data-disabled]):not([data-is-active]):not([data-has-errors])
+  label[data-role="label"],
+#form[data-form-id="5874033"]
+  div[data-role="container"][data-type="likert-wrapper"]:not(:hover):not([data-is-selected]):not([data-disabled]):not([data-is-active]):not([data-has-errors])
+  label[data-role="label"],
+#form[data-form-id="5874033"]
+  div[data-role="control"][data-is-active]:not([data-has-errors])
+  div.control__label,
+#form[data-form-id="5874033"]
+  div[data-role="control"][data-is-active]:not([data-has-errors])
+  label[data-role="label"],
+#form[data-form-id="5874033"]
+  div[data-role="container"][data-type="likert-wrapper"][data-is-active]:not([data-has-errors])
+  label[data-role="label"],
+#form[data-form-id="5874033"]
+  div[data-role="control"][data-is-active]:not([data-has-errors])
+  div.control__label,
+#form[data-form-id="5874033"]
+  div[data-role="container"][data-type="likert-wrapper"][data-is-active]:not([data-has-errors])
+  div.control__label,
+#form[data-form-id="5874033"]
+  div[data-role="control"]:hover:not([data-is-selected]):not([data-is-drag-source]):not([data-disabled]):not([data-is-active]):not([data-has-errors])
+  div[data-role="label"],
+#form[data-form-id="5874033"]
+  div[data-role="control"]:hover:not([data-is-selected]):not([data-is-drag-source]):not([data-disabled]):not([data-is-active]):not([data-has-errors])
+  label[data-role="label"],
+#form[data-form-id="5874033"]
+  div[data-role="container"][data-type="likert-wrapper"]:hover:not([data-is-selected]):not([data-is-drag-source]):not([data-disabled]):not([data-is-active]):not([data-has-errors])
+  label[data-role="label"] {
+  color: #fff !important;
+}
+
+#form[data-form-id="5874033"] button[data-role] {
+  border-color: #fff !important;
+  color: #fff !important;
+}
