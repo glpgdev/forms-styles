@@ -7,6 +7,10 @@
   margin: 0 -8px !important;
 }
 
+#form[data-form-id="5874033"] [data-role="page"] {
+  background: none !important;
+}
+
 #form[data-form-id="5874033"] *,
 #form[data-form-id="5874033"] span[data-role="option-text"] {
   /* font-size: 18px !important; */
