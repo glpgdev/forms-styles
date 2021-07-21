@@ -46,8 +46,12 @@
   display: none !important;
 }
 
-#form[data-form-id="5874033"] label#radio-000000080 > label:checked,
-#form[data-form-id="5874033"] label#radio-000000081 > label:checked {
+#form[data-form-id="5874033"]
+  label#radio-000000080
+  > label[aria-checked="true"],
+#form[data-form-id="5874033"]
+  label#radio-000000081
+  > label[aria-checked="true"] {
   background: #fff !important;
   color: #456cac !important;
   font-weight: bold !important;
