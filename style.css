@@ -76,6 +76,27 @@
   color: #687c95 !important;
 }
 
+/* calendar */
+body
+  > div[data-role="date-overlay"]
+  > div[data-component="date"]
+  > div[data-role="navigation"]
+  > div[data-action="select-year"] {
+  border: 1px solid #456cac !important;
+  padding-bottom: 0 !important;
+  padding-top: 5px !important;
+  border-radius: 6px !important;
+  cursor: pointer !important;
+}
+
+body
+  > div[data-role="date-overlay"]
+  > div[data-component="date"]
+  > div[data-role="navigation"]
+  > div[data-action="btn-next-month"]:before {
+  color: #456cac !important;
+}
+
 /** MEDIA QUERIES **/
 @media only screen and (max-width: 768px) {
   #form div[data-type="html-block"][data-colspan="8"] {
