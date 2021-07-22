@@ -93,6 +93,11 @@ body
   > div[data-role="date-overlay"]
   > div[data-component="date"]
   > div[data-role="navigation"]
+  > div[data-action="btn-prev-month"]:before,
+body
+  > div[data-role="date-overlay"]
+  > div[data-component="date"]
+  > div[data-role="navigation"]
   > div[data-action="btn-next-month"]:before {
   color: #456cac !important;
 }
