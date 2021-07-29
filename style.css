@@ -13,6 +13,20 @@
   font-family: "Karla", sans-serif;
 }
 
+#form .form-header,
+#form div[data-role="page-header"] {
+  display: none !important;
+}
+
+#form > div[data-role="page"] > div[data-role="page-header"] h1,
+#form > div[data-role="page"] > div[data-role="page-header"] h2,
+#form > div[data-role="page"] > div[data-role="page-header"] h3,
+#form > div[data-role="page"] > div[data-role="page-header"] h4,
+#form > div[data-role="page"] > div[data-role="page-header"] h5,
+#form > div[data-role="page"] > div[data-role="page-header"] h6 {
+  font-weight: bold !important;
+}
+
 #form div[data-type="html-block"] p {
   color: #687c95 !important;
   line-height: 1.625 !important;
@@ -129,12 +143,12 @@ body
     padding: 30px;
   }
 
-  #form[data-form-id="5961606"] {
+  #form {
     position: relative;
     padding-top: 100px !important;
   }
 
-  #form[data-form-id="5961606"]::before {
+  #form::before {
     content: "";
     background: url(https://glpg-public-assets.s3.us-east-2.amazonaws.com/glpg-logo.png)
       center center no-repeat;
@@ -150,6 +164,11 @@ body
   #form * {
     font-family: initial !important;
     color: #000 !important;
+  }
+
+  #form .form-header,
+  #form div[data-role="page-header"] {
+    display: block !important;
   }
 
   /* remove padding */
