@@ -143,17 +143,6 @@ body
     padding: 30px;
   }
 
-  #form::before {
-    position: relative;
-    content: url(https://glpg-public-assets.s3.us-east-2.amazonaws.com/glpg-logo.png);
-    display: block;
-    margin-bottom: 30px;
-    transform: scale(0.4);
-    position: relative;
-    left: -50px;
-    top: -10px;
-  }
-
   /* reset font */
   #form * {
     font-family: initial !important;
