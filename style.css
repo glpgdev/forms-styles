@@ -167,7 +167,7 @@ body
   }
 
   #form .form-header,
-  #form div[data-role="page-header"] {
+  #form > div[data-is-first-page="1"] > div[data-role="page-header"] {
     display: block !important;
   }
 
