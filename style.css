@@ -131,7 +131,7 @@ body
 
   #form[data-form-id="5961606"] {
     position: relative;
-    padding-top: 100px;
+    padding-top: 100px !important;
   }
 
   #form[data-form-id="5961606"]::before {
