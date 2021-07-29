@@ -255,6 +255,14 @@ body
   #form div[data-role="control"] div[data-role="price-container"],
   #form div[data-role="control"] div[data-role="price-container"] > input,
   #form div[data-role="control"] div[data-role="input-container"],
+  #form div[data-role="control"] div[data-role="input-container"],
+  #form
+    div[data-role="control"]
+    div[data-role="input-container"][data-is-focused-child-element],
+  #form
+    div[data-role="control"]
+    div[data-role="input-container"][data-is-focused-child-element]
+    > input,
   #form div[data-role="control"] div[data-role="input-container"] > input {
     background: none !important;
   }
