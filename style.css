@@ -129,6 +129,23 @@ body
     padding: 30px;
   }
 
+  #form[data-form-id="5961606"] {
+    position: relative;
+    padding-top: 100px;
+  }
+
+  #form[data-form-id="5961606"]::before {
+    content: "";
+    background: url(https://glpg-public-assets.s3.us-east-2.amazonaws.com/glpg-logo.png)
+      center center no-repeat;
+    height: 66px;
+    width: 200px;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
   /* reset font */
   #form * {
     font-family: initial !important;
