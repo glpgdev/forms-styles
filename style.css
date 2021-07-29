@@ -13,10 +13,10 @@
   font-family: "Karla", sans-serif;
 }
 
-/* #form .form-header,
+#form .form-header,
 #form div[data-role="page-header"] {
   display: none !important;
-} */
+}
 
 #form > div[data-role="page"] > div[data-role="page-header"] h1,
 #form > div[data-role="page"] > div[data-role="page-header"] h2,
