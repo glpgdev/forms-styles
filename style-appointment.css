@@ -175,7 +175,8 @@ form#form[data-form-id="6163043"] div[data-type="form-action-bar"] {
 }
 
 
-form#form[data-form-id="6163043"] div[data-role="control"][data-type="radio"] input[data-role="i123-input"][type=radio]:checked + label {
+form#form[data-form-id="6163043"] div[data-role="control"][data-type="radio"] input[data-role="i123-input"][type=radio]:checked + label,
+form#form[data-form-id="6163043"] div[data-role="control"][data-type="check-box"] input[data-role="i123-input"][type=checkbox]:checked + label {
   border-color: #2681c2 !important;
   background-color: #2681c2 !important;
 }
