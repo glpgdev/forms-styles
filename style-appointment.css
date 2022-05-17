@@ -168,12 +168,6 @@
   color: #fff !important;
 }
 
-form#form[data-form-id="6163043"] div[data-id="101835270"] div[data-role="page-body"] {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 20px;
-}
-
 form#form[data-form-id="6163043"] div[data-type="form-action-bar"] {
   display: flex;
   gap: 5px;
