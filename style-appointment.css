@@ -175,3 +175,8 @@ form#form[data-form-id="6163043"] div[data-role="page-body"]{
   border-radius: 6px !important;
   padding: 54px 36px !important;
 }
+
+form#form[data-form-id="6163043"] div[data-type="form-action-bar"] {
+  display: flex;
+  gap: 5px;
+}
