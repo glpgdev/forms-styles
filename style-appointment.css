@@ -1,12 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
 @import "./style.css";
 
-/* 2022 Appointment Form */
-#form[data-form-id="6163043"] div[data-id="101835269"] {
-  background: #faf3e4 !important;
-  border-radius: 6px;
-}
-
 /* Request Appointment Form */
 #form[data-form-id="5874033"] {
   background: none !important;
@@ -173,4 +167,10 @@
   input[data-role="i123-input"][type="checkbox"]:checked
   + label:after {
   color: #fff !important;
+}
+
+/* 2022 Appointment Form */
+#form[data-form-id="6163043"] div[data-id="101835269"] {
+  background: #faf3e4 !important;
+  border-radius: 6px;
 }
