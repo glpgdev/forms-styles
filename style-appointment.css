@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
 @import "./style.css";
 
 /* Request Appointment Form */
@@ -169,14 +168,8 @@
   color: #fff !important;
 }
 
-/* 2022 Appointment Form */
-form#form[data-form-id="6163043"] div[data-role="page-body"]{
-  background-color: #faf3e4 !important;
-  border-radius: 6px !important;
-  padding: 54px 36px !important;
-}
-
 form#form[data-form-id="6163043"] div[data-type="form-action-bar"] {
   display: flex;
   gap: 5px;
+  justify-content: end;
 }
