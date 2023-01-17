@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
 
 /* form labels */
-.ft--label.ft--shrink {
+label.ft--label.ft--shrink {
   font-weight: 600 !important;
 }
