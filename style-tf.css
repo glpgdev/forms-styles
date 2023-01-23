@@ -1,11 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
-
 /* just for testing purposes */
 * {
   background: red !important;
-}
-
-/* form labels */
-label.ft--label.ft--shrink {
-  font-weight: 600 !important;
 }
